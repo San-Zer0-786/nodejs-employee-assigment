@@ -1,0 +1,48 @@
+/* global.scss */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 8px;
+}
+.btn {
+    cursor: pointer;
+    &_unassigned {
+        border-radius: 4px;
+        display: inline-block;
+        margin-right: 8px;
+        align-items: center;
+        padding: 4px 12px;
+        font-size: 12px;
+        color: white;
+        background-color: rgba(169, 43, 43, 0.4);
+        border: none; 
+        font-size: 16px;
+        margin-bottom: 10px;
+        cursor: not-allowed;
+    }
+    &_assigned {
+        border-radius: 4px;
+        align-items: center;
+        padding: 4px 12px;
+        font-size: 12px;
+        color: white;
+        background-color: rgba(169, 43, 43, 1);
+        border: none; 
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    &_assign {
+        background-color: greenyellow;
+        border-radius: 24px;
+        padding: 8px 12px;
+        display: block;
+        margin-top: 12px;
+    }
+}
+  
+  
